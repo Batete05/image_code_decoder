@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Read the image
-image = cv2.imread("image_03.png")
+image = cv2.imread("Image_03.png")
 
 # Decode the barcode
 barcodes = decode(image)
